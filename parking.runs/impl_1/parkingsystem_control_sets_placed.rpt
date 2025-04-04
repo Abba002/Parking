@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Fri Apr  4 19:11:14 2025
+| Date         : Fri Apr  4 19:54:21 2025
 | Host         : Ibukun running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file parkingsystem_control_sets_placed.rpt
 | Design       : parkingsystem
@@ -58,7 +58,7 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              16 |            6 |
+| No           | No                    | No                     |              16 |            5 |
 | No           | No                    | Yes                    |               0 |            0 |
 | No           | Yes                   | No                     |              21 |            6 |
 | Yes          | No                    | No                     |               0 |            0 |
@@ -74,7 +74,7 @@ Table of Contents
 |   Clock Signal   | Enable Signal |       Set/Reset Signal       | Slice Load Count | Bel Load Count | Bels / Slice |
 +------------------+---------------+------------------------------+------------------+----------------+--------------+
 |  clock_IBUF_BUFG |               |                              |                1 |              1 |         1.00 |
-|  ss0/__0/i__n_0  |               |                              |                3 |              6 |         2.00 |
+|  ss0/__0/i__n_0  |               |                              |                2 |              6 |         3.00 |
 |  sclk/clk_out    |               |                              |                2 |              9 |         4.50 |
 |  clock_IBUF_BUFG |               | sclk/period_count[0]_i_1_n_0 |                6 |             21 |         3.50 |
 +------------------+---------------+------------------------------+------------------+----------------+--------------+

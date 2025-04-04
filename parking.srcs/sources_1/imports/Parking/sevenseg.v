@@ -6,13 +6,13 @@ module sevenseg(
 
 always @(*) begin
     case (display)
-        0: seg = 7'b1000111;//f
-        1: seg = 7'b0111110;//u
-        2: seg = 7'b0001110;//l
-        3: seg = 7'b1111110;//o
-        4: seg = 7'b1100111;//p
-        5: seg = 7'b1001111;//e
-        6: seg = 7'b0010101;//n
+        0: seg = 7'b0001110; //f 
+        1: seg = 7'b1000001; //u
+        2: seg = 7'b1000111; //l 
+        3: seg = 7'b1000000;//o 
+        4: seg = 7'b0001100;//p 
+        5: seg = 7'b0000110;//e 
+        6: seg = 7'b0101011;//n 
     endcase
     
 end

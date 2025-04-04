@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date             : Fri Apr  4 19:11:48 2025
+| Date             : Fri Apr  4 19:54:58 2025
 | Host             : Ibukun running 64-bit major release  (build 9200)
 | Command          : report_power -file parkingsystem_power_routed.rpt -pb parkingsystem_power_summary_routed.pb -rpx parkingsystem_power_routed.rpx
 | Design           : parkingsystem
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 19.764 (Junction temp exceeded!) |
+| Total On-Chip Power (W)  | 19.897 (Junction temp exceeded!) |
 | Design Power Budget (W)  | Unspecified*                     |
 | Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 19.153                           |
-| Device Static (W)        | 0.611                            |
+| Dynamic (W)              | 19.276                           |
+| Device Static (W)        | 0.621                            |
 | Effective TJA (C/W)      | 4.6                              |
 | Max Ambient (C)          | 0.0                              |
-| Junction Temperature (C) | 115.2                            |
+| Junction Temperature (C) | 115.8                            |
 | Confidence Level         | Low                              |
 | Setting File             | ---                              |
 | Simulation Activity File | ---                              |
@@ -52,16 +52,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.261 |       77 |       --- |             --- |
-|   LUT as Logic |     0.225 |       19 |     63400 |            0.03 |
+| Slice Logic    |     0.260 |       77 |       --- |             --- |
+|   LUT as Logic |     0.224 |       19 |     63400 |            0.03 |
 |   Register     |     0.020 |       37 |    126800 |            0.03 |
 |   CARRY4       |     0.011 |        6 |     15850 |            0.04 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |        6 |       --- |             --- |
-| Signals        |     0.319 |       63 |       --- |             --- |
-| I/O            |    18.573 |       22 |       210 |           10.48 |
-| Static Power   |     0.611 |          |           |                 |
-| Total          |    19.764 |          |           |                 |
+| Signals        |     0.317 |       64 |       --- |             --- |
+| I/O            |    18.699 |       22 |       210 |           10.48 |
+| Static Power   |     0.621 |          |           |                 |
+| Total          |    19.897 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,9 +71,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     1.022 |       0.604 |      0.418 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.752 |       0.680 |      0.073 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     5.254 |       5.250 |      0.004 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     1.027 |       0.601 |      0.426 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.758 |       0.684 |      0.074 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     5.290 |       5.286 |      0.004 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -138,9 +138,9 @@ Table of Contents
 +---------------+-----------+
 | Name          | Power (W) |
 +---------------+-----------+
-| parkingsystem |    19.153 |
-|   sclk        |     0.091 |
-|   ss0         |     0.149 |
+| parkingsystem |    19.276 |
+|   sclk        |     0.090 |
+|   ss0         |     0.158 |
 +---------------+-----------+
 
 
