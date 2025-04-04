@@ -7,10 +7,10 @@ module parkingsystem (
     output reg [3:0] an
 );
 reg [3:0] display;
-sevenseg ss0(display,seg);//instantiate the seven seg module
+sevenseg ss0(display,seg)//instantiate the seven seg module
 
 wire slowclock_100Hz;
-slowclock_100Hz sclk(clock,slowclock_100Hz);
+slowclock_100Hz sclk(clock,slowclock_100Hz)
 
 reg [1:0] enable=0; // declaring the 4 enable for each segment
 
