@@ -1,5 +1,5 @@
 `timescale 1ps/1ps
-module (
+module sevenseg(
     input [3:0] display,
     output reg [6:0] seg
 );
